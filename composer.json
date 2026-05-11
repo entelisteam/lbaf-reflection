@@ -1,0 +1,34 @@
+{
+  "name": "entelisteam/php-reflection-helpers",
+  "description": "Lightweight PHP reflection utilities: enum helper, type caster, short class name resolver, cached method parameter lookup.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["reflection", "enum", "type-casting", "helpers", "utility"],
+  "authors": [
+    {
+      "name": "Dim Entelis",
+      "email": "dentelis@gmail.com",
+      "homepage": "https://entelis.team"
+    }
+  ],
+  "require": {
+    "php": "~8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EntelisTeam\\Reflection\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EntelisTeam\\Reflection\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "minimum-stability": "stable"
+}
