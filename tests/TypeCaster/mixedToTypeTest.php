@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace EntelisTeam\Reflection\Tests\TypeCaster;
+namespace EntelisTeam\Lbaf\Reflection\Tests\TypeCaster;
 
-use EntelisTeam\Reflection\TypeCaster;
+use EntelisTeam\Lbaf\Reflection\TypeCaster;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;

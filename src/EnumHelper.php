@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace EntelisTeam\Reflection;
+namespace EntelisTeam\Lbaf\Reflection;
 
 use ReflectionEnum;
 use ValueError;
