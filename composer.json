@@ -16,7 +16,10 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^12.0",
-    "entelisteam/lbaf-rector": "^1.0"
+    "entelisteam/lbaf-rector": "^1.1"
+  },
+  "conflict": {
+    "entelisteam/lbaf-rector": "<1.1"
   },
   "autoload": {
     "psr-4": {

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace EntelisTeam\Lbaf\Reflection\Rector\Migration;
 
+use EntelisTeam\Lbaf\Rector\Rule\RenameStaticMethod;
+use EntelisTeam\Lbaf\Rector\Rule\RenameStaticMethodRector;
 use Rector\Configuration\RectorConfigBuilder;
 use Rector\Renaming\Rector\Name\RenameClassRector;
-use Rector\Renaming\Rector\StaticCall\RenameStaticMethodRector;
-use Rector\Renaming\ValueObject\RenameStaticMethod;
 
 /**
  * Миграция для downstream-проектов: переход с Lbaf-овских namespace'ов на
@@ -16,7 +16,7 @@ use Rector\Renaming\ValueObject\RenameStaticMethod;
  * Подхватывается автоматически через lbaf-rector (extra.lbaf-rector-migrations).
  *
  * Покрывает переименования классов и статических методов. Use-импорты и FQN
- * обновляются автоматически встроенными RenameClassRector и RenameStaticMethodRector.
+ * обновляются автоматически встроенным RenameClassRector и RenameStaticMethodRector из lbaf-rector.
  */
 final class Migration_20260511_1012_ContainerSplit
 {
